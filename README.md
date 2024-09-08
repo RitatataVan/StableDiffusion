@@ -1,6 +1,6 @@
 # Stable Diffusion - Image to Prompts
 
-![SD](https://github.com/user-attachments/assets/05b5635c-45fd-43a9-b391-e704590e9e3a)
+![SD](https://github.com/user-attachments/assets/6a18b818-fffc-4812-a6d1-a2b10eb11bf6)
 
 ## Background
 The aim is to predict the prompts that were used to generate target images, and measure the performance of the model's prediction results through mean cosine similairty (predicted vs. actual prompt embedding vectors). Images were generated from the prompts using Stable Diffusion 2.0 (768-v-ema.ckpt) and were generated with 50 steps at 768x768 px and then downsized to 512x512 for the competition dataset. 
